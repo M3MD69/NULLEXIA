@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    cursor: default;
+    text-decoration: none;
+    transition: 0.3s all;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+
+    /* for Firefox  */
+    scrollbar-color: deepskyblue navy;
+    scrollbar-width: auto;
+}
+
+html {
+    margin-right: 7px;
+    margin-left: 7px;
+    background: deepskyblue;
+}
+
+header {
+    background-color: navy;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px;
+}
+
+nav {
+    background-color: navy;
+    font-weight: bold;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px 20px;
+    display: flex;
+}
+
+.nav {
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    color: black;
+    border-radius: 10px;
+    flex-grow: 1;
+    padding: 5px;
+    margin: 3px;
+}
+
+.Home_nav {
+    flex: 3;
+}
+
+.AboutUs_nav {
+    flex: 100%;
+}
+
+.nav:hover,
+.nav:focus {
+    border: 2px solid deepskyblue;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+}
+
+.Container_AboutUs {
+    border: 5px solid deepskyblue;
+    margin: auto;
+    background-color: navy;
+    padding: 5px;
+}
+
+.Container_AboutUs::backdrop {
+    background-color: black;
+    opacity: 0.4;
+}
+
+main {
+    border-radius: 15px;
+    background-color: navy;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px navy,
+        -1px -1px 5px navy;
+}
+
+.h1_main {
+    background-color: navy;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.p_main {
+    color: navy;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    background-color: deepskyblue;
+}
+
+.section_main {
+    background-color: deepskyblue;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+}
+
+.learning_Dialog_buttons {
+    border: 3px solid deepskyblue;
+    background-color: deepskyblue;
+    color: navy;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 7px;
+    display: inline-flex;
+    flex: content;
+    direction: ltr;
+}
+
+.learning_Dialog_buttons:hover {
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+}
+
+.Exit_Prof {
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    color: navy;
+    font-weight: bolder;
+    width: min-content;
+    position: absolute;
+    position: 0;
+    padding: 2px;
+    display: inline-flex;
+    left: 0;
+}
+
+.Exit_Prof:hover {
+    color: white;
+    background-color: navy;
+    border: 2px solid deepskyblue;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px deepskyblue;
+    border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, navy, deepskyblue);
+    border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(270deg, deepskyblue, navy, deepskyblue);
+}

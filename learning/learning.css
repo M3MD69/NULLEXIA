@@ -1,0 +1,79 @@
+.buttons_container {
+    display: none;
+    flex-flow: row wrap;
+}
+
+.learning_buttons {
+    border: 3px solid navy;
+    background-color: navy;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+    /* display: none; */
+    flex: content;
+    direction: ltr;
+}
+
+.learning_buttons:hover {
+    border: 3px solid navy;
+    cursor: pointer;
+    background-color: deepskyblue;
+    color: navy;
+}
+
+.Back_To_First_Menu,
+.Back_To_Programming_Menu,
+.Back_To_Programming_Programming_Programs_Menu,
+.Back_To_Graphic_Menu {
+    flex: 100%;
+}
+
+.Background_Container {
+    opacity: 0.3;
+}
+
+.Container {
+    border: 5px solid deepskyblue;
+    margin: auto;
+    background-color: navy;
+}
+
+.Container::backdrop {
+    background-color: black;
+    opacity: 0.4;
+}
+
+.Dia_H3 {
+    text-align: center;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.hr_end {
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    margin: 7px;
+}
+
+.Exit {
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    color: navy;
+    font-weight: bolder;
+    width: min-content;
+    position: absolute;
+    padding: 2px;
+    margin-top: 5px;
+    display: inline-block;
+    left: 0;
+}
+
+.Exit:hover {
+    color: white;
+    background-color: navy;
+    border: 2px solid deepskyblue;
+}
+
+.show_anything_div {
+    display: flex;
+}
