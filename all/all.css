@@ -14,6 +14,11 @@
     /* for Firefox  */
     scrollbar-color: deepskyblue navy;
     scrollbar-width: auto;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 html {
