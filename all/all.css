@@ -52,12 +52,19 @@ nav {
     margin: 3px;
 }
 
+.AboutUs_nav,
 .Home_nav {
-    flex: 3;
+    flex: 100%;
 }
 
-.AboutUs_nav {
-    flex: 100%;
+.hr_head {
+    display: block;
+    width: 99%;
+    background-color: deepskyblue;
+    color: deepskyblue;
+    border: 0.1rem solid deepskyblue;
+    margin-top: 0.20rem;
+    margin-bottom: 0.20rem;
 }
 
 .nav:hover,

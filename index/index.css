@@ -3,34 +3,24 @@
     flex-wrap: wrap;
 }
 
-.div_telegram,
-.div_itchIo {
-    flex-grow: 1;
-    border: 4px solid navy;
-    padding: 2px;
-    margin: 2px;
-    background-color: navy;
-}
-
-img {
-    border: 5px solid deepskyblue;
-    border-radius: 15px;
+.box {
     width: 100px;
+    margin: 0 !important;
+    background-color: navy;
+    border: 0.3rem solid navy;
+    padding: 0.5rem !important;
 }
 
-.div_telegram:hover,
-.div_itchIo:hover {
-    cursor: pointer;
+.box img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+.box:hover {
     background-color: deepskyblue;
-    color: navy;
 }
 
-img:hover {
-    cursor: pointer;
-    border: 5px solid navy;
-}
-
-.info_cursor_text:hover {
-    cursor: pointer;
-    color: navy;
+.box a p {
+    font-size: larger;
+    color: white;
 }
