@@ -24,7 +24,7 @@ function main() {
     SASS();
     Canvas();
     AJAX();
-    J_SON();
+    JSON();
     Vue_js();
     PugJs();
     Gulp();
@@ -493,14 +493,14 @@ function AJAX() {
     return Container_AJAX;
 };
 
-function J_SON() {
-    const Container_J_SON = document.querySelector(".Container_J_SON");
+function JSON() {
+    const Container_JSON = document.querySelector(".Container_JSON");
 
-    const J_SON = document.querySelector(".JSON");
+    const JSON = document.querySelector(".JSON");
 
-    J_SON.addEventListener("click", () => { if (!Container_AJAX.open) Container_J_SON.showModal(); });
+    JSON.addEventListener("click", () => { if (!Container_JSON.open) Container_JSON.showModal(); });
 
-    return Container_J_SON;
+    return Container_JSON;
 };
 
 function Vue_js() {
@@ -1243,7 +1243,7 @@ function Exit() {
             SASS().close();
             Canvas().close();
             AJAX().close();
-            J_SON().close();
+            JSON().close();
             Vue_js().close();
             PugJs().close();
             Gulp().close();
