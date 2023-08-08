@@ -29,7 +29,7 @@ function main() {
     PugJs();
     Gulp();
     jQuery();
-    Node_js();
+    // Node_js();
     Bootstrap();
     UML();
     Dart();
@@ -524,7 +524,7 @@ function PugJs() {
 };
 
 function Gulp() {
-    const Container_Gulp = document.querySelector(".Container_J_SON");
+    const Container_Gulp = document.querySelector(".Container_Gulp");
 
     const Gulp = document.querySelector(".Gulp");
 
@@ -534,7 +534,7 @@ function Gulp() {
 };
 
 function jQuery() {
-    const Container_jQuery = document.querySelector(".Container_Vue_js");
+    const Container_jQuery = document.querySelector(".Container_jQuery");
 
     const jQuery = document.querySelector(".jQuery");
 
@@ -543,15 +543,15 @@ function jQuery() {
     return Container_jQuery;
 };
 
-function Node_js() {
-    const Container_Node_js = document.querySelector(".Container_PugJs");
+// function Node_js() {
+//     const Container_Node_js = document.querySelector(".Container_Node_js");
 
-    const Node_js = document.querySelector(".Node_js");
+//     const Node_js = document.querySelector(".Node_js");
 
-    Node_js.addEventListener("click", () => { if (!Container_Node_js.open) Container_Node_js.showModal(); });
+//     Node_js.addEventListener("click", () => { if (!Container_Node_js.open) Container_Node_js.showModal(); });
 
-    return Container_Node_js;
-};
+//     return Container_Node_js;
+// };
 
 function Bootstrap() {
     const Container_Bootstrap = document.querySelector(".Container_Bootstrap");
@@ -1248,7 +1248,7 @@ function Exit() {
             PugJs().close();
             Gulp().close();
             jQuery().close();
-            Node_js().close();
+            // Node_js().close();
             Bootstrap().close();
             UML().close();
             Dart().close();
