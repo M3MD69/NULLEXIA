@@ -6,8 +6,8 @@
 .box {
     width: 100px;
     margin: 0 !important;
-    background-color: navy;
-    border: 0.3rem solid navy;
+    background-color: limegreen;
+    border: 0.3rem solid limegreen;
     padding: 0.5rem !important;
     margin: 0.1rem !important;
 }
@@ -18,10 +18,10 @@
 }
 
 .box:hover {
-    background-color: deepskyblue;
+    background-color: #000b1d;
 }
 
 .box a p {
     font-size: larger;
-    color: white;
+    color: black;
 }

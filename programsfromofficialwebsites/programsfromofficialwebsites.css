@@ -1,9 +1,9 @@
 .box {
     width: 100px;
     margin: 0.25rem;
-    background-color: navy;
+    background-color: limegreen;
     padding: 10px;
-    border: 0.3rem solid navy;
+    border: 0.3rem solid limegreen;
 }
 
 .box img {
@@ -13,9 +13,10 @@
 }
 
 .box:hover {
-    background-color: deepskyblue;
+    background-color: #000b1d;
 }
 
 .box p {
     font-size: larger;
+    color: white;
 }
